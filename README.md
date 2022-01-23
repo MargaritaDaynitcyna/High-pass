@@ -1,5 +1,4 @@
 # High-pass
-View [here](https://margaritadaynitcyna.github.io/High-pass/)
 
 - Adaptive landing page from 2560px to 320px.
 
@@ -18,13 +17,15 @@ View [here](https://margaritadaynitcyna.github.io/High-pass/)
 
 # Getting Started
 
-Type ```gulp``` in a terminal, Once the build is complete, the site will open at http://localhost:3000.
+Type ```gulp``` in a terminal, Once the build is complete, the site will open at http://localhost:3000 OR open dist/index.html
 
+
+# Screenshots of the site
+![Снимок экрана (220)](https://user-images.githubusercontent.com/90200312/150693755-05d2f3d5-98ca-4205-9fd7-793ba18da084.png)
 
 
 
 ### Rus
-Посмотреть [тут](https://margaritadaynitcyna.github.io/High-pass/)
 
 - Адаптивная одностраничная верстка от 2560px до 320px.
 
