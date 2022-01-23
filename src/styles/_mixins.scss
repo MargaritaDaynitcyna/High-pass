@@ -1,0 +1,82 @@
+@mixin btn-primary {
+    border: 3px solid $colorButton;
+    background-color: $colorButton;
+    color: $colorTextWhite;
+
+    &:hover {
+        background-color: $colorButton2;
+        border-color: $colorButton2;
+    }
+
+    &:focus {
+        background-color: $colorButton3;
+        border-color: $colorButton3;
+    }
+
+    &:active {
+        background-color: $colorButton;
+        border-color: $colorButton3;
+    }
+}
+
+@mixin btn-secondary {
+    border: 3px solid $colorButton;
+    color: $colorTextWhite;
+
+    &:hover {
+        background-color: $colorButton;
+    }
+
+    &:focus {
+        background-color: $colorButton3;
+        border-color: $colorButton3;
+    }
+
+    &:active {
+        background-color: $colorButton2;
+        border-color: $colorButton;
+    }
+}
+
+@mixin sticker {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    padding: 6px 14px;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: $colorSticker;
+    color: $colorTextWhite;
+
+    @media (max-width:320px) {
+        padding: 4px 14px;
+        font-size: 12px;
+    }
+}
+
+@mixin btn-close {
+    width: 20px;
+    height: 20px;
+    fill: $colorTextWhite;
+    background-color: #666666;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+@mixin social-icon {
+    fill: $colorTextGrey;
+    transition: fill .3s ease-in-out;
+
+    &:hover {
+        fill: $colorButton;
+    }
+
+    &:focus {
+        fill: $colorButton3;
+    }
+
+    &:active {
+        fill: $colorButton2;
+    }
+}

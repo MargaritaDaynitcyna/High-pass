@@ -1,0 +1,122 @@
+.footer {
+  background-color: #202020;
+}
+
+.footer__container {
+  height: 106px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 34% 1fr 16%;
+      grid-template-columns: 34% 1fr 16%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .footer__container {
+    -ms-grid-columns: 35% 1fr 20%;
+        grid-template-columns: 35% 1fr 20%;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer__container {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer__container {
+    height: 185px;
+    padding: 0;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 123px 62px;
+        grid-template-rows: 123px 62px;
+    background-color: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer__logo {
+    height: 100%;
+    width: 100%;
+    padding-top: 8px;
+    text-align: center;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    background-color: #4A4A4A;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__logo {
+    padding-top: 12px;
+  }
+}
+
+.footer__copyrights {
+  font-family: "TTFirsNeue";
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 320px) {
+  .footer__copyrights {
+    font-size: 10px;
+  }
+}
+
+.footer__tagline {
+  margin-top: 6px;
+  width: 361px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+  .footer__tagline {
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer__tagline {
+    display: none;
+  }
+}
+
+.footer__social {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+@media (max-width: 576px) {
+  .footer__social {
+    height: 100%;
+    width: 100%;
+    padding-top: 28px;
+    text-align: center;
+    background-color: #202020;
+  }
+}
+
+.footer__social .social__list {
+  padding-top: 11px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__link {
+  color: #FFFFFF;
+}
+
+.tagline__name {
+  color: #666666;
+}
+/*# sourceMappingURL=footer.css.map */

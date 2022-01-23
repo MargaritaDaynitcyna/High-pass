@@ -1,0 +1,271 @@
+.about-studio {
+  background-color: #202020;
+}
+
+.about-studio__container {
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+@media (max-width: 1024px) {
+  .about-studio__container {
+    padding-bottom: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-studio__container {
+    padding-bottom: 64px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-studio__container {
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 320px) {
+  .about-studio__container {
+    padding-top: 32px;
+  }
+}
+
+.about-studio__title {
+  color: #FFFFFF;
+}
+
+@media (max-width: 576px) {
+  .about-studio__title {
+    font-size: 18px;
+  }
+}
+
+.about-studio__content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  margin-top: 4px;
+}
+
+@media (max-width: 576px) {
+  .about-studio__content {
+    -ms-grid-columns: none;
+        grid-template-columns: none;
+    -ms-grid-rows: 1fr 441px;
+        grid-template-rows: 1fr 441px;
+    grid-gap: 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  .about-studio__content {
+    grid-gap: 24px;
+  }
+}
+
+.text-about {
+  line-height: 28px;
+  color: #CACACA;
+}
+
+@media (max-width: 1024px) {
+  .text-about {
+    padding-right: 4px;
+  }
+}
+
+@media (max-width: 576px) {
+  .text-about {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
+
+.subscribe {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 22px 50px;
+      grid-template-rows: 1fr 22px 50px;
+  grid-gap: 13px;
+}
+
+@media (max-width: 1024px) {
+  .subscribe {
+    -ms-grid-rows: 332px 22px 120px;
+        grid-template-rows: 332px 22px 120px;
+    grid-gap: 19px;
+  }
+}
+
+@media (max-width: 768px) {
+  .subscribe {
+    -ms-grid-rows: 569px 22px 120px;
+        grid-template-rows: 569px 22px 120px;
+  }
+}
+
+@media (max-width: 687px) {
+  .subscribe {
+    -ms-grid-rows: 569px 44px 120px;
+        grid-template-rows: 569px 44px 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  .subscribe {
+    -ms-grid-rows: 278px 22px 100px;
+        grid-template-rows: 278px 22px 100px;
+  }
+}
+
+.subscribe__foto {
+  width: 100%;
+  height: 95%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .subscribe__foto {
+    width: 466px;
+    height: 332px;
+  }
+}
+
+@media (max-width: 768px) {
+  .subscribe__foto {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.subscribe__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 576px) {
+  .subscribe__title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  .subscribe__title {
+    padding-top: 6px;
+  }
+}
+
+.subscribe__form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 127px;
+      grid-template-columns: 1fr 127px;
+  grid-gap: 26px;
+}
+
+@media (max-width: 1024px) {
+  .subscribe__form {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.form__input-subscribe {
+  width: 100%;
+  font-family: 'Roboto';
+  font-size: 16px;
+  background-color: #4A4A4A;
+  color: #CACACA;
+}
+
+@media (max-width: 1024px) {
+  .form__input-subscribe {
+    width: 73%;
+  }
+}
+
+@media (max-width: 768px) {
+  .form__input-subscribe {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .form__input-subscribe {
+    font-size: 14px;
+  }
+}
+
+.form__input-subscribe:hover {
+  color: #FF6E30;
+}
+
+.form__input-subscribe:focus {
+  outline: 1px solid #FF6E30;
+}
+
+.form__input-subscribe:active {
+  color: #FFFFFF;
+}
+
+.form__btn {
+  border: 3px solid #FF6E30;
+  background-color: #FF6E30;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.form__btn:hover {
+  background-color: #BC572B;
+  border-color: #BC572B;
+}
+
+.form__btn:focus {
+  background-color: #CE4307;
+  border-color: #CE4307;
+}
+
+.form__btn:active {
+  background-color: #FF6E30;
+  border-color: #CE4307;
+}
+
+@media (max-width: 1024px) {
+  .form__btn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+
+@media (max-width: 576px) {
+  .form__btn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .form {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 50px 50px;
+        grid-template-rows: 50px 50px;
+    grid-gap: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .form {
+    -ms-grid-rows: 40px 40px;
+        grid-template-rows: 40px 40px;
+  }
+}
+/*# sourceMappingURL=about-studio.css.map */

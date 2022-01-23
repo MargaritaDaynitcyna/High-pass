@@ -1,0 +1,122 @@
+@import '_variables.scss';
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: local("Roboto-Regular"), local("Roboto-400"), url("fonts/Roboto-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+    src: local("Roboto-Bold"), local("Roboto-700"), url("fonts/Roboto-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'TTFirsNeue';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: local("TTFirsNeue-Regular"), local("TTFirsNeue-400"), url("fonts/TTFirsNeue-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'TTFirsNeue';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+    src: local("TTFirsNeue-Bold"), local("TTFirsNeue-700"), url("fonts/TTFirsNeue-Bold.woff") format("woff");
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'TTFirsNeue';
+}
+
+html,
+body,
+p,
+h1,
+h2,
+h3,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding-right: 30px;
+    padding-left: 30px;
+
+    @media (max-width: 1024px) {
+        max-width: none;
+    }
+
+    @media (max-width: 768px) {
+        padding-right: 27px;
+        padding-left: 27px;
+    }
+
+    @media (max-width: 576px) {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    height: 50px;
+    padding: 12px 20px;
+    font-weight: 700;
+    transition-property: background-color, color, border-color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+
+    @media (max-width:576px) {
+        height: 40px;
+        padding: 9px 19px;
+        font-size: 14px;
+    }
+}
+
+.input {
+    height: 50px;
+    padding-left: 23px;
+    border: none;
+    outline: none;
+
+    @media (max-width:576px) {
+        height: 40px;
+        font-size: 14px;
+    }
+}

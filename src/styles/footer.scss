@@ -1,0 +1,94 @@
+@import '_variables.scss';
+
+.footer {
+    background-color: $colorTextBlack;
+
+    &__container {
+        height: 106px;
+        display: grid;
+        // grid-template-columns: repeat(12, 1fr);
+        grid-template-columns: 34% 1fr 16%;
+        align-items: center;
+
+        @media (max-width: 1024px) {
+            grid-template-columns: 35% 1fr 20%;
+        }
+
+        @media (max-width: 900px) {
+            grid-template-columns: 1fr 1fr
+        }
+
+        @media (max-width:576px) {
+            height: 185px;
+            padding: 0;
+            grid-template-columns: 1fr;
+            grid-template-rows: 123px 62px;
+            background-color: none;
+        }
+    }
+
+    &__logo {
+        @media (max-width:576px) {
+            height: 100%;
+            width: 100%;
+            padding-top: 8px;
+            text-align: center;
+            order: 2;
+            background-color: $colorMobile;
+        }
+
+        @media (max-width:320px) {
+            padding-top: 12px;
+        }
+    }
+
+    &__copyrights {
+        font-family: "TTFirsNeue";
+        font-size: 14px;
+        color: $colorTextWhite;
+
+        @media (max-width:320px) {
+            font-size: 10px;
+        }
+    }
+
+    &__tagline {
+        margin-top: 6px;
+        width: 361px;
+        line-height: 22px;
+        color: $colorTextWhite;
+
+        @media (max-width: 1024px) {
+           justify-self: center;
+        }
+
+        @media (max-width: 900px) {
+            display: none;
+        }
+    }
+
+    &__social {
+        justify-self: end;
+
+        @media (max-width:576px) {
+            height: 100%;
+            width: 100%;
+            padding-top: 28px;
+            text-align: center;
+            background-color: $colorTextBlack;
+        }
+
+        .social__list {
+            padding-top: 11px;
+            justify-content: center;
+        }
+    }
+
+    &__link {
+        color: $colorTextWhite;
+    }
+}
+
+.tagline__name {
+    color: #666666;
+}
