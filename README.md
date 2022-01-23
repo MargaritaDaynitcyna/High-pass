@@ -20,10 +20,10 @@ View [here](https://margaritadaynitcyna.github.io/High-pass/)
 
 Type ```gulp``` in a terminal, Once the build is complete, the site will open at http://localhost:3000.
 
-Finished version: dist/index.html
 
 
 
+### Rus
 Посмотреть [тут](https://margaritadaynitcyna.github.io/High-pass/)
 
 - Адаптивная одностраничная верстка от 2560px до 320px.
