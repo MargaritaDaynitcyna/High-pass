@@ -1,5 +1,7 @@
 # High-pass
 
+View [here](https://margaritadaynitcyna.github.io/High-pass/dist/).
+
 - Adaptive landing page from 2560px to 320px.
 
 - Css grid.
